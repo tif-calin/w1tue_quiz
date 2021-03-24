@@ -1,1 +1,55 @@
 /* add home page styles here */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Lato&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.main section {
+    width: 100%;
+}
+
+img {
+    width: 35%;
+}
+
+i {
+    font-style: italic;
+}
+
+p {
+    margin: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.drop-cap {
+    font-size: 3rem;
+    font-weight: bold;
+    float: left;
+    line-height: 1;
+    font-family: UnifrakturMaguntia, serif;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    align-self: flex-start;
+}
+
+li {
+    line-height: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 0.25rem;
+}
+
+button {
+    margin-top: 1rem;
+}
+
+#div-results {
+    visibility: hidden;
+    margin-top: 3rem;
+}
