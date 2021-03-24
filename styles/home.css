@@ -48,3 +48,8 @@ li {
 button {
     margin-top: 1rem;
 }
+
+#div-results {
+    visibility: hidden;
+    margin-top: 3rem;
+}
