@@ -16,7 +16,6 @@ test('isYes: yes values', (expect) => {
     expect.equal(actual1, expected);
     expect.equal(actual2, expected);
     expect.equal(actual3, expected);
-    expect.equal(actual4, expected);
 });
 
 // test no values
@@ -33,5 +32,4 @@ test('isYes: testing no values', (expect) => {
     expect.equal(actual1, expected);
     expect.equal(actual2, expected);
     expect.equal(actual3, expected);
-    expect.equal(actual4, expected);
 });
