@@ -1,1 +1,32 @@
 /* add home page styles here */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Lato&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+i {
+    font-style: italic;
+}
+
+p {
+    margin: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.drop-cap {
+    font-size: 3rem;
+    font-weight: bold;
+    float: left;
+    line-height: 1;
+    font-family: UnifrakturMaguntia, serif;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    align-self: flex-start;
+}

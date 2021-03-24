@@ -1,4 +1,5 @@
 // import functions and grab DOM elements
+import { isYes } from './utils.js';
 
 // initialize state
 
